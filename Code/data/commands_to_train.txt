@@ -1,0 +1,5 @@
+(Open powershell / cmd in src folder and run the follwowing commands -)
+
+python createLMDB.py --data_dir E:\mini_sem6\miniprojectNew\data2
+
+python main.py --fast --train --data_dir E:\mini_sem6\miniprojectNew\data2

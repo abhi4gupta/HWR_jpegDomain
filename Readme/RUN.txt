@@ -1,0 +1,11 @@
+To run - download all these files, and run the command below
+
+Command :  ( in src directory )
+python post.py <FILENAME_OF_IMAGE_FROM_DUMPFOLDER> ; python main.py
+(on command line or windows powershell)
+
+
+#COMMENTS
+post.py takes arguemnt of imagename from dump directory. Saves image with name dct_<imagename> and also another image named test.png in dump2 directory. 
+
+main.py takes input dct image of test.png and predicts the output,

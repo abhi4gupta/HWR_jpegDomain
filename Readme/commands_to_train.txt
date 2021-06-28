@@ -1,0 +1,15 @@
+SETUP :
+-------
+Download IAM Dataset and name the folder "data".
+Make an empty folder "data2".
+Open powershell / cmd inside src directory.
+Run the following command - "python pre.py"
+
+# This will setup the DCT compressed dataset in data2 folder.
+
+TRAINING:
+---------
+Open powershell / cmd inside src directory.
+Run the follwing commands one by one -
+	python createLMDB.py --data_dir E:\mini_sem6\miniprojectNew\data2
+	python main.py --fast --train --data_dir E:\mini_sem6\miniprojectNew\data2
